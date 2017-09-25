@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>.:: Simanor ::.</title>
+    <link rel="icon" href="assets/images/favicon.ico" type='image/x-icon'/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body>
+    <div class="navbar-fixed-top desktop_header">
+      <div class="topmost_div">
+        <div class="container">
+          <ul class="nav navbar-nav">
+            <li><a href="#" class="top_div_links" style="border-left: 1px solid #607588"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="franchisees.html" class="top_div_links"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="career.html" class="top_div_links"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a href="#" class="top_div_links"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+            <li><a href="#" class="top_div_links"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="top_div_links" style="border-left: 1px solid #607588"><i class="fa fa-phone" aria-hidden="true"></i> +1 646 340 2040</a></li>
+            <li><a href="franchisees.html" class="top_div_links"><i class="fa fa-envelope" aria-hidden="true"></i> info@seminor.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="middle_header">
+        <div class="container" style="padding-top: 15px;">
+          <div class="col-sm-3">
+            <a class="navbar-brand" href="index.html" style="padding-top: 7px">
+            <img src="assets/images/logo.png" class="img-responsive" style="width: 175px">
+            </a>
+          </div>
+          <div class="col-sm-9">
+            <ul class="nav navbar-nav navbar-right" style="padding-top: 18px">
+              <li class="active"><a href="#" class="middle_nav_links"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+              <li><a href="#" class="middle_nav_links">About Us</a></li>
+              <li><a href="#" class="middle_nav_links">Services</a></li>
+              <li><a href="#" class="middle_nav_links">Our Team</a></li>
+              <li><a href="#" class="middle_nav_links">Experience</a></li>
+              <li><a href="#" class="middle_nav_links">Contact Us</a></li>
+              <li class="dropdown"><a href="#" class="middle_nav_links" style="border: none;"><i class="fa fa-search" aria-hidden="true" style="padding: 5px;margin-top: -3px;background: #25439d;color: #fff"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_header">
+      <div class="col-sm-3 col-xs-3">
+        <img src="assets/images/logo.png" style="width: 170px">
+      </div>
+      <div class="col-sm-9 col-xs-9">
+        <a href="#" onclick="openNav()">
+        <img src="assets/images/toggle.png" class="pull-right">
+        </a>
+      </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Our Team</a>
+      <a href="#">Experience</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div id="myCarousel" class="carousel slide top_div" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/images/banner-1.jpg">
+          <div class="hero4">
+            <h2 class="carousel-heading">NO BORDERS...</h2>
+            <h2 class="carousel-sub-heading">ENABLING THE FREE FLOW OF CAPITAL, TECHNOLOGY & RESOURCES.</h2>
+            <a href="#" class="btn btn-warning btn1">VIEW MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/banner-1.jpg">
+          <div class="hero4">
+            <h2 class="carousel-heading">NO BORDERS...</h2>
+            <h2 class="carousel-sub-heading">ENABLING THE FREE FLOW OF CAPITAL, TECHNOLOGY & RESOURCES.</h2>
+            <a href="#" class="btn btn-warning btn1">VIEW MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/banner-1.jpg">
+          <div class="hero4">
+            <h2 class="carousel-heading">NO BORDERS...</h2>
+            <h2 class="carousel-sub-heading">ENABLING THE FREE FLOW OF CAPITAL, TECHNOLOGY & RESOURCES.</h2>
+            <a href="#" class="btn btn-warning btn1">VIEW MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div style="width: 100%;" class="desktop_block2">
+      <div style="width: 33%;float: left;background: #25439d;padding: 30px 15px 42px 90px">
+        <h3 class="about_heading">About us</h3>
+        <p class="about_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <a href="#" class="btn btn-default btn2">Read More</a>
+      </div>
+      <div style="width: 67%;float: left;padding: 30px 90px 30px 40px;background: #f4f4f4">
+        <h3 class="about_heading2">Our Services</h3>
+        <div style="width: 50%;float: left;" class="info_span1">
+          <h3>Buy-Side Engagements</h3>
+          <ul class="about_ul">
+            <li class="about_li">Crystallography studies</li>
+            <li class="about_li">Genotoxity</li>
+            <li class="about_li">Impurity Profile</li>
+            <li class="about_li">Metabolic Studies</li>
+          </ul>
+          <a href="#" class="btn btn-default btn3">Read More</a>
+        </div>
+        <div style="width: 50%;float: left;" class="info_span2">
+          <h3>Sell-side Engagements</h3>
+          <ul class="about_ul">
+            <li class="about_li">Crystallography studies</li>
+            <li class="about_li">Genotoxity</li>
+            <li class="about_li">Impurity Profile</li>
+            <li class="about_li">Metabolic Studies</li>
+          </ul>
+          <a href="#" class="btn btn-default btn3">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_block2 top_div2">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="panel panel-primary" style="background-color: #25439d">
+            <div class="panel-body">
+              <h3 class="about_heading text-center">About us</h3>
+              <p class="about_para text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <a href="#" class="btn btn-default btn2" style="display: table;margin:0 auto">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel panel-default" style="background-color: #f4f4f4">
+            <div class="panel-body">
+              <h3 class="about_heading2 text-center">Our Services</h3>
+              <div class="col-sm-6 info_span1">
+                <h3>Buy-Side Engagements</h3>
+                <ul class="about_ul">
+                  <li class="about_li">Crystallography studies</li>
+                  <li class="about_li">Genotoxity</li>
+                  <li class="about_li">Impurity Profile</li>
+                  <li class="about_li">Metabolic Studies</li>
+                </ul>
+                <a href="#" class="btn btn-default btn3">Read More</a>
+              </div>
+              <div class="col-sm-6 info_span2">
+                <h3>Sell-side Engagements</h3>
+                <ul class="about_ul">
+                  <li class="about_li">Crystallography studies</li>
+                  <li class="about_li">Genotoxity</li>
+                  <li class="about_li">Impurity Profile</li>
+                  <li class="about_li">Metabolic Studies</li>
+                </ul>
+                <a href="#" class="btn btn-default btn3">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="container top_div2 desktop_block3">
+      <h3 class="about_heading2"><span class="info_span3">Our Experience</span></h3>
+      <div class="seprator_1"></div>
+      <br>
+      <div class="row">
+        <div class="col-sm-12 col-md-6" style="padding: 0">
+          <div class="row">
+            <div class="col-sm-6 img-hvr hvr-2" style="padding-right: 0">
+              <img src="assets/images/img-1.jpg" class="img-responsive">
+              <div class="text">
+                <h5>BUY-SIDE</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 img-hvr hvr-2" style="padding-left: 0">
+              <img src="assets/images/img-2.jpg" class="img-responsive">
+              <div class="text">
+                <h5>BUY-SIDE</h5>
+              </div>
+            </div>
+          </div>
+          <span class="head">SAMPLE OF RECENTLY CLOSED M&A AND OTHER ADVISORY TRANSACTIONS</span>
+        </div>
+        <div class="col-sm-12 col-md-6" style="padding: 0">
+          <div class="row">
+            <div class="col-sm-6 img-hvr hvr-2" style="padding-right: 0">
+              <img src="assets/images/img-3.jpg" class="img-responsive">
+              <div class="text">
+                <h5>BUY-SIDE</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 img-hvr hvr-2" style="padding-left: 0">
+              <img src="assets/images/img-4.jpg" class="img-responsive">
+              <div class="text">
+                <h5>BUY-SIDE</h5>
+              </div>
+            </div>
+          </div>
+          <span class="head2">SAMPLE OF CURRENT ENGAGEMENTS</span>
+        </div>
+      </div>
+    </div>
+    <div class="container top_div2 mobile_block3">
+      <span class="head">SAMPLE OF RECENTLY CLOSED M&A AND OTHER ADVISORY TRANSACTIONS</span>
+      <div class="col-xs-12 img-hvr hvr-2">
+        <img src="assets/images/img-1.jpg" class="img-responsive">
+        <div class="text">
+          <h5>BUY-SIDE</h5>
+        </div>
+      </div>
+      <div class="col-xs-12 img-hvr hvr-2" style="margin-top: 20px">
+        <img src="assets/images/img-2.jpg" class="img-responsive">
+        <div class="text">
+          <h5>BUY-SIDE</h5>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="container top_div2 mobile_block3">
+      <span class="head2">SAMPLE OF CURRENT ENGAGEMENTS</span>
+      <div class="col-xs-12 img-hvr hvr-2">
+        <img src="assets/images/img-1.jpg" class="img-responsive">
+        <div class="text">
+          <h5>BUY-SIDE</h5>
+        </div>
+      </div>
+      <div class="col-xs-12 img-hvr hvr-2" style="margin-top: 20px">
+        <img src="assets/images/img-2.jpg" class="img-responsive">
+        <div class="text">
+          <h5>BUY-SIDE</h5>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="container">
+      <hr>
+    </div>
+    <section id="carousel">
+      <div class="container">
+        <h3 class="about_heading2 text-center">Testimonials</h3>
+        <br>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="assets/images/kiara.jpg" class="img-responsive img-circle center-block" style="width: 100px;margin-top: 10px">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                    <p style="font-size: 12px">by</p>
+                    <p style="font-size: 16px"><b>Alex Chris</b></p>
+                  </blockquote>
+                </div>
+                <div class="item">
+                  <img src="assets/images/jack.jpg" class="img-responsive img-circle center-block" style="width: 100px;margin-top: 10px">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                    <p style="font-size: 12px">by</p>
+                    <p style="font-size: 16px"><b>jack Chris</b></p>
+                  </blockquote>
+                </div>
+                <div class="item">
+                  <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                    <p style="font-size: 12px">by</p>
+                    <p style="font-size: 16px"><b>Cheeru Chris</b></p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    
+    <div style="background-color: #f1f1f1" class="new_mobile_block">
+      <div class="container">
+        <div class='row'>
+          <div class="carousel slide media-carousel" id="media">
+            <div class="carousel-inner">
+              <div class="item  active">
+                <div class="row">
+                  <div class="col-sm-6" style="background-color: #fff;height: 200px;border: 1px solid red;position: relative;z-index: 1">
+                      <img src="assets/images/1.jpg" style="position: absolute;right: 0">
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+            <a data-slide="next" href="#media" class="right carousel-control">›</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container top_div2">
+      <h3 class="about_heading2 text-center">Our Partners</h3>
+      <br>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div id="Carousel" class="carousel slide">
+            <ol class="carousel-indicators carousel_indicator2" style="margin-bottom: ">
+              <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#Carousel" data-slide-to="1"></li>
+              <li data-target="#Carousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="">
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner2.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner3.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner4.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner5.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+              <div class="item">
+                <div class="">
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+              <div class="item">
+                <div class="">
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                  <div class="col-md-2 col-xs-4">
+                    <img src="assets/images/partner1.jpg" class="img-responsive img-rounded partner_images" >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container top_div2 footer_upper">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="col-sm-5">
+          <p class="info_span4">Call us now <br>for free consultation : <span>+1 646 340 2040</span></p>
+        </div>
+        <div class="col-sm-2">
+          <span class="info_or">OR</span>
+        </div>
+        <div class="col-sm-5">
+          <p class="info_span5">Mail Now <br>for free consultation : <span>+1 646 340 2040</span></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="col-md-3">
+          <img src="assets/images/footer-logo.jpg" style="padding-top: 85px" class="img-responsive">
+        </div>
+        <div class="col-md-5">
+          <h3 class="footer_heading">Address</h3>
+          <div class="row" style="padding: 10px">
+            <div class="col-md-6">
+              <h5 class="footer_heading">UNITED STATE</h5>
+              <address>
+                <i class="fa fa-map-marker footer_icon" aria-hidden="true"></i> 1505 Brodway 12th floorNew York NY 10036
+              </address>
+              <p class="footer_para"><i class="fa fa-phone footer_icon" aria-hidden="true"></i> +1 646 340 2040</p>
+              <p class="footer_para"><i class="fa fa-phone footer_icon" aria-hidden="true"></i> +1 866 733 4700</p>
+              <p class="footer_para"><i class="fa fa-envelope footer_icon" aria-hidden="true"></i> info@simanor.com</p>
+            </div>
+            <div class="col-md-6">
+              <h5 class="footer_heading">INDIA</h5>
+              <address>
+                <i class="fa fa-map-marker footer_icon" aria-hidden="true"></i> #101/1, Ravi Chambers Kavuri Hills Madhapur, Hyderabad
+              </address>
+              <p class="footer_para"><i class="fa fa-envelope footer_icon" aria-hidden="true"></i> hyderabad@simanor.com</p>
+              <p class="footer_para"><i class="fa fa-envelope footer_icon" aria-hidden="true"></i> banglore@simanor.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3 class="footer_heading">Useful Info</h3>
+          <p class="footer_para" style="margin-top: 40px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <ul style="list-style-type: none;margin-left: -45px">
+            <li class="footer_li"><a href="#" class="footer_links"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="footer_li"><a href="#" class="footer_links"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="footer_li"><a href="#" class="footer_links"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li class="footer_li"><a href="#" class="footer_links"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+            <li class="footer_li"><a href="#" class="footer_links"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer_policy">
+      <a id="back-to-top" href="#" class="btn btn-default back-to-top" role="button"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+      <p class="footer_para_bottom">&copy; Copyright Simanor. All Right Reserved. Designed By Glansa.com.</p>
+    </div>
+    <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
